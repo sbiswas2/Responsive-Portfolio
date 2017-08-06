@@ -212,4 +212,42 @@ body {
 }
 /*end portfolio section*/
 
+/*Media Queries*/
+
+@media screen and (max-width: 980px;) {
+	#main-bio {
+		width: 500px;
+
+	}
+
+	.container {
+		width: 720px;
+	}
+}
+
+@media screen and (max-width: 768px;) {
+	#main-bio {
+		width: 400px;
+	}
+
+	.container {
+		margin-left: 0px;
+	}
+}
+
+@media screen and (max-width: 640px;) {
+	#main-bio {
+		width: 400px;
+	}
+
+	.container {
+		width: 100%;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	#sidebar {
+		float: left;
+	}
+}
 
