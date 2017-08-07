@@ -215,36 +215,37 @@ body {
 /*Media Queries*/
 
 @media screen and (max-width: 980px;) {
-	#main-bio {
-		width: 500px;
-
-	}
-
-	.container {
+	.container-980 {
 		width: 720px;
 	}
+
+	#main-bio {
+		width: 500px;
+	}
 }
+
 
 @media screen and (max-width: 768px;) {
-	#main-bio {
-		width: 400px;
+	.container-768 {
+		margin-left: 0px;
 	}
 
-	.container {
-		margin-left: 0px;
+	#main-bio {
+		width: 400px;
 	}
 }
 
-@media screen and (max-width: 640px;) {
-	#main-bio {
-		width: 400px;
-	}
 
-	.container {
+@media screen and (max-width: 640px;) {
+	.container-640 {
 		width: 100%;
 		margin-left: 10px;
 		margin-right: 10px;
 	}
+
+	#main-bio {
+		width: 400px;
+	}	
 
 	#sidebar {
 		float: left;
