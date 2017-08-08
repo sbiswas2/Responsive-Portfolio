@@ -241,6 +241,10 @@ input[type=submit] {
 /*Media Queries*/
 
 @media screen and (max-width: 980px) {
+  #masthead {
+      position: static;
+  }
+  
   .main-section {
       float: left;
       width: 100%;
